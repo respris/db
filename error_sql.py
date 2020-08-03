@@ -11,3 +11,5 @@ try:
     conn.commit()
 except sqlite3.OperationalError:
     print("Oops! Something went wrong. Try again...")
+
+conn.close()
